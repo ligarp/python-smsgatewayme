@@ -16,12 +16,13 @@ def pesan(no,pesan):
     print (json.loads(r.data))
 def kirim_pesan(nomer,isi_pesan):
     time.sleep(5)
+    pesan("08xxxx","[SIMO]--")
 
 
 # contoh penggunaan
-# kirim_pesan("082xxx","isi pesan string, enter gunakan \n")
+# pesan("082xxx","isi pesan string, enter gunakan \n")
 # perulangan 
 # nomor = ["nomor 1","nomor 2", "dst"]
 # for i in nomor:
-#     kirim_pesan(i,"isi pesan")
+#     pesan(i,"isi pesan")
 
